@@ -1,0 +1,274 @@
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  gap: 20px;
+}
+
+.main-logo {
+  width: 200px;
+  height: auto;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 60px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #444444;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.nav-link:hover {
+  color: #000000;
+}
+
+.main-content {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.article-body {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.article-header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-title {
+  font-family: 'Protest Guerrilla', sans-serif;
+  font-size: 4.8rem;
+  line-height: 1.05;
+  color: #111111;
+  letter-spacing: 0.5px;
+}
+
+.title-main {
+  display: block;
+}
+
+.title-sub {
+  display: block;
+}
+
+.lead-paragraph {
+  font-size: 1.35rem;
+  line-height: 1.8;
+  color: #333333;
+  font-weight: 400;
+  max-width: 650px;
+}
+
+.article-text-flow {
+  column-count: 3;
+  column-gap: 40px;
+}
+
+.article-text-flow p {
+  margin-bottom: 1.25rem;
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: #333333;
+  break-inside: avoid;
+}
+
+.section-heading {
+  font-family: 'Protest Guerrilla', sans-serif;
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-top: 1.25rem;
+  margin-bottom: 16px;
+  color: #111111;
+  break-after: avoid;
+}
+
+.section-heading:first-of-type {
+  margin-top: 0;
+}
+
+.photo-gallery-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  overflow: hidden;
+}
+
+.gallery-item {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.gallery-large {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.author-section {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  border-top: 1px solid #eeeeee;
+}
+
+.author-info {
+  flex: 1;
+}
+
+.author-title {
+  font-family: 'Protest Guerrilla', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.author-bio {
+  font-size: 1.05rem;
+  color: #444444;
+  line-height: 1.6;
+}
+
+.author-media {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.author-avatar {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.social-vertical {
+  flex-direction: column;
+}
+
+.social-horizontal {
+  flex-direction: row;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  display: block;
+  object-fit: contain;
+}
+
+.twitter-icon {
+  background-color: #000000;
+  border-radius: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.comments-section {
+  background-color: #dedede;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.comments-title {
+  font-family: 'Protest Guerrilla', sans-serif;
+  font-size: 3rem;
+}
+
+.comment-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.comment-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.comment-author {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #111111;
+}
+
+.comment-text {
+  font-size: 0.98rem;
+  color: #333333;
+  line-height: 1.5;
+}
+
+.site-footer {
+  background-color: #14181d;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  gap: 50px;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 60px;
+}
+
+.footer-nav a {
+  color: #cccccc;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.footer-nav a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.copyright-text {
+  font-size: 0.9rem;
+  color: #aaaaaa;
+}
